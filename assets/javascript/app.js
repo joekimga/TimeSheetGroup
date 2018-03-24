@@ -37,3 +37,13 @@
   console.log(newEmp.role);
   console.log(newEmp.start);
   console.log(newEmp.rate);
+
+    // Alert
+  alert("Employee successfully added");
+
+  // Clears all of the text-boxes
+  $("#employee-name-input").val("");
+  $("#role-input").val("");
+  $("#start-input").val("");
+  $("#rate-input").val("");
+});
